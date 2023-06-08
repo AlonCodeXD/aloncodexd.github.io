@@ -1,0 +1,522 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: helvetica;
+  overflow-x: hidden;
+}
+
+.navbar-brand img {
+  height: 64px;
+}
+
+body {
+  background-image: url(../imagenes/index/1332.jpg);
+  background-size: 100%;
+  background-blend-mode: multiply;
+  background-position: center center;
+}
+
+main {
+  position: relative;
+}
+
+.sigue {
+  display: flex;
+  align-items: start;
+  font-size: 120%;
+  margin-top: 3%;
+  margin-bottom: 1%;
+}
+
+.sox img {
+  height: 50px;
+}
+
+.dere {
+  display: flex;
+  font-size: 120%;
+  margin-top: 1%;
+  margin-bottom: 3%;
+}
+
+.grilla {
+  display: grid;
+  grid-template-rows: repeat(3, 250px);
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.kof img {
+  width: 100%;
+  height: 100%;
+}
+
+.tof {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+  font-size: small;
+}
+
+.lof img {
+  width: 100%;
+  height: 100%;
+}
+
+.rof {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: yellow;
+  font-size: small;
+}
+
+.sof {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column: 1/3;
+  grid-row: 2/4;
+  background-color: orange;
+}
+.sof img {
+  width: 80%;
+  height: 80%;
+}
+
+.pof {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  grid-column: 3/5;
+  grid-row: 2/5;
+  background-color: orange;
+  font-size: medium;
+}
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.btn-lg {
+  background-color: #198754;
+}
+
+.lasbebidas {
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+}
+
+.fledrink {
+  display: flex;
+  flex-direction: column;
+}
+
+.lateral {
+  border: 2px solid black;
+  border-radius: 15px;
+  align-items: center;
+  background-color: rgba(255, 221, 26, 0.808);
+}
+
+.frdrink {
+  margin: 5px;
+}
+
+.drink {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.drink img {
+  width: 64px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.drink img .text {
+  flex-grow: 1;
+}
+
+.text {
+  margin-right: 5px;
+}
+
+.taza {
+  display: flex;
+  display: grid;
+  place-items: center;
+  grid-template-areas: "  .    .    head  head head head head  .      .      . " "  .   pro1  pro1    .  pro2 pro2   .  pro3   pro3    . " "  .   pro1  pro1    .  pro2 pro2   .  pro3   pro3    . " "  .     .     .     .    .    .    .    .      .     . " "  .   pro4  pro4    .  pro5 pro5   .  pro6   pro6    . " "  .   pro4  pro4    .  pro5 pro5   .  pro6   pro6    . ";
+  grid-template-rows: repeat(6, 100px);
+  grid-template-columns: repeat(10, 1fr);
+  justify-content: center;
+  align-items: center;
+  margin-left: 8%;
+}
+.taza img {
+  width: 150px;
+}
+.taza img {
+  width: 150px;
+}
+
+.head {
+  grid-area: head;
+  font-size: xxx-large;
+}
+
+.pro1 {
+  grid-area: pro1;
+}
+
+.pro2 {
+  grid-area: pro2;
+}
+
+.pro3 {
+  grid-area: pro3;
+}
+
+.pro4 {
+  grid-area: pro4;
+}
+
+.pro5 {
+  grid-area: pro5;
+}
+
+.pro6 {
+  grid-area: pro6;
+}
+
+.suit {
+  font-size: larger;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.lospostres {
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+}
+
+.flatpos {
+  display: flex;
+  flex-direction: column;
+}
+
+.costado {
+  border: 2px solid black;
+  border-radius: 15px;
+  align-items: center;
+  background-color: rgba(255, 221, 26, 0.808);
+}
+
+.hotpos {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.hotpos img {
+  width: 64px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.texpos {
+  margin-right: 5px;
+}
+
+.pan {
+  display: flex;
+  display: grid;
+  place-items: center;
+  grid-template-areas: "  .    .    beza  beza beza beza beza  .      .      . " "  .   wit1  wit1    .  wit2 wit2   .  wit3   wit3    . " "  .   wit1  wit1    .  wit2 wit2   .  wit3   wit3    . " "  .     .     .     .    .    .    .    .      .     . " "  .   wit4  wit4    .  wit5 wit5   .  wit6   wit6    . " "  .   wit4  wit4    .  wit5 wit5   .  wit6   wit6    . ";
+  grid-template-rows: repeat(6, 100px);
+  grid-template-columns: repeat(10, 1fr);
+  justify-content: center;
+  align-items: center;
+  margin-left: 8%;
+}
+.pan img {
+  width: 150px;
+}
+.pan img {
+  width: 150px;
+}
+
+.beza {
+  grid-area: beza;
+  font-size: xxx-large;
+}
+
+.wit1 {
+  grid-area: wit1;
+}
+
+.wit2 {
+  grid-area: wit2;
+}
+
+.wit3 {
+  grid-area: wit3;
+}
+
+.wit4 {
+  grid-area: wit4;
+}
+
+.wit5 {
+  grid-area: wit5;
+}
+
+.wit6 {
+  grid-area: wit6;
+}
+
+.losgranos {
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 30px;
+  margin: 20px 50px 0 50px;
+  background-color: rgba(255, 221, 26, 0.808);
+}
+
+.granfe {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.grigrano {
+  display: grid;
+  place-items: center;
+  grid-template-areas: "  .  gra1  gra1  .  gra2 gra2  .  gra3 gra3  . " "  .  gra1  gra1  .  gra2 gra2  .  gra3 gra3  . ";
+  grid-template-rows: repeat(2, 100px);
+  grid-template-columns: repeat(10, 1fr);
+  justify-content: center;
+  align-items: center;
+  margin: 40px 15px 10px 15px;
+}
+.grigrano img {
+  width: 180px;
+}
+.grigrano img {
+  width: 150px;
+}
+
+.gra1 {
+  display: flex;
+  flex-direction: column;
+  grid-area: gra1;
+}
+
+.gra2 {
+  display: flex;
+  flex-direction: column;
+  grid-area: gra2;
+}
+
+.gra3 {
+  display: flex;
+  flex-direction: column;
+  grid-area: gra3;
+}
+
+.texgra {
+  margin-top: 5%;
+  text-align: center;
+  font-size: medium;
+}
+
+.gear {
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 30px;
+  margin: 20px 50px 0 50px;
+  background-color: rgba(255, 221, 26, 0.808);
+}
+
+.xdgear {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.grigear {
+  display: grid;
+  place-items: center;
+  grid-template-areas: "  .  ger1  ger1  .  ger2 ger2  .  ger3 ger3  . " "  .  ger1  ger1  .  ger2 ger2  .  ger3 ger3  . ";
+  grid-template-rows: repeat(2, 100px);
+  grid-template-columns: repeat(10, 1fr);
+  justify-content: center;
+  align-items: center;
+  margin: 40px 15px 10px 15px;
+}
+.grigear img {
+  width: 180px;
+}
+.grigear img {
+  width: 150px;
+}
+
+.ger1 {
+  display: flex;
+  flex-direction: column;
+  grid-area: ger1;
+}
+
+.ger2 {
+  display: flex;
+  flex-direction: column;
+  grid-area: ger2;
+}
+
+.ger3 {
+  display: flex;
+  flex-direction: column;
+  grid-area: ger3;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.abso {
+  position: absolute;
+}
+
+.soicon {
+  display: flex;
+  background-color: rgb(44, 18, 6);
+  justify-content: center;
+  padding: 30px;
+}
+
+.soicon img {
+  margin: 0 3% 0 3%;
+  width: 40px;
+}
+
+.teboton {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding: 7px;
+}
+
+h4 {
+  font-size: 15px;
+}
+
+@media (max-width: 526px) {
+  * {
+    position: relative;
+  }
+  .nav {
+    flex-direction: column;
+    display: none;
+  }
+  nav img {
+    display: block;
+  }
+  .grilla {
+    display: flex;
+    flex-direction: column;
+  }
+  .tof {
+    padding: 8%;
+  }
+  .rof {
+    padding: 8%;
+  }
+  .pof {
+    padding: 8%;
+  }
+  h3 {
+    text-align: center;
+  }
+  .lasbebidas {
+    flex-direction: column;
+  }
+  .lospostres {
+    flex-direction: column;
+  }
+  .taza {
+    grid-template-areas: "head head head head" "pro1 pro1 pro2 pro2" "pro1 pro1 pro2 pro2" "  .    .    .    . " "pro3 pro3 pro4 pro4" "pro3 pro3 pro4 pro4" "  .    .    .    . " "pro5 pro5 pro6 pro6" "pro5 pro5 pro6 pro6";
+    grid-template-rows: repeat(9, 90px);
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin-right: 6%;
+  }
+  .pan {
+    grid-template-areas: "beza beza beza beza" "wit1 wit1 wit2 wit2" "wit1 wit1 wit2 wit2" "  .    .    .    . " "wit3 wit3 wit4 wit4" "wit3 wit3 wit4 wit4" "  .    .    .    . " "wit5 wit5 wit6 wit6" "wit5 wit5 wit6 wit6";
+    grid-template-rows: repeat(9, 90px);
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin-right: 6%;
+  }
+  .head {
+    font-size: xx-large;
+  }
+  .beza {
+    font-size: xx-large;
+  }
+  .lateral {
+    justify-content: center;
+    align-items: center;
+    column-count: 2;
+  }
+  .costado {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    column-count: 3;
+  }
+  .drink {
+    margin: 6%;
+  }
+  .grigrano {
+    grid-template-areas: " . gra1 gra1 . gra2 gra2 ." " . gra1 gra1 . gra2 gra2 ." " .   .    .  .   .    .  ." " . gra3 gra3 .   .    .  ." " . gra3 gra3 .   .    .  .";
+    grid-template-rows: repeat(5, 80px);
+    grid-template-columns: repeat(7, 1fr);
+    justify-content: center;
+    align-items: center;
+  }
+  .grigear {
+    grid-template-areas: " . ger1 ger1 . ger2 ger2 ." " . ger1 ger1 . ger2 ger2 ." " .   .    .  .   .    .  ." " . ger3 ger3 .   .    .  ." " . ger3 ger3 .   .    .  .";
+    grid-template-rows: repeat(5, 80px);
+    grid-template-columns: repeat(7, 1fr);
+    justify-content: center;
+    align-items: center;
+  }
+  .texgra {
+    text-align: justify;
+  }
+  footer {
+    position: relative;
+    bottom: 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
